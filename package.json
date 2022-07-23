@@ -1,0 +1,32 @@
+{
+  "name": "file-sharing-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amandixit10/inShare_fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amandixit10/inShare_fullstack/issues"
+  },
+  "homepage": "https://github.com/Amandixit10/inShare_fullstack#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "nodemailer": "^6.7.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
